@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+  erb(:index)
 end
 
 get '/secret' do
@@ -13,7 +13,5 @@ get '/fish' do
 end
 
 get '/cat' do
-	"<div >
-	<img style='border: 3px dashed red' src= http://bit.ly/1eze8aE>
-	</div>"
+
 end
